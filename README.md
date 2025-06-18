@@ -1,7 +1,7 @@
 # Sist_tp1
 Cosas por hacer
 
--Samplear o recrear los cuadrados
+-Samplear o recrear los cuadrados de la obra
 
 -Suavizar la variable de voz para que sea menos brusca
 
