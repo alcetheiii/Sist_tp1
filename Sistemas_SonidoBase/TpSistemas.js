@@ -1,9 +1,11 @@
+//Caso De estudio: Recreación de los elementos especificos que necesitamos para el trabajo
+
 //Variable que sostiene la instancia del mic
 let mic;
 
 function setup() {
 
-    //Hace el camvas, no tocar
+    //Hace el canvas, no tocar
     let cnv = createCanvas(800, 600);
 
     //"empieza a agarrar audio cuando el usuario hace click" Evita bugs
@@ -24,11 +26,18 @@ function draw() {
     let Y = (height - 100) - mic_level * height;
 
     background(200);
+
+    //Codigo de los Cuadrados
+    push();
+    //Rect();
+    pop();
     
     //Codigo del circulito en si
     push();
+    
+    //Crea una elipse con el circulo y la variable Y
     fill(0);
-        //Crea una elipse con el circulo y la variable Y
     ellipse(width/2, Y, 100, 100);
+    
     pop();
 }
